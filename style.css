@@ -123,7 +123,14 @@
     order: 1;
     flex: 1 0 300px;
 }
+.nav .search h3{
+    margin-top: 2.2rem;
+}
 
+.nav .search .sel{
+    margin-top: -1.7rem;
+    width: 100px;
+}
 .nav .news{
     order: 2;
     flex: 1 0 500px;
@@ -136,7 +143,9 @@
     flex: 1 0 300px;
     margin-left: -4.5rem;
 }
-
+.nav .suscribe h3{
+    margin-top: 2.4rem;
+}
 .nav .suscribe button{
     background-color:black;
     border: none;
@@ -257,12 +266,13 @@
             }
             .im1{
                 border: 1px solid black;
-                height: 100px;
-                width: 100px;
+                height: 135px;
+                width: 110px;
             }
             .mycard .card-content{
-                margin-left: 10px;
+                margin-left: 0px;
                 order: 2;
+                height: 120px;
                 flex: 1 1 240px;
             }
     
@@ -280,12 +290,12 @@
             .mycard .card-content .card-body{
                 box-sizing:border-box ;
                 border: 1px solid white;
-                width: 200px;
+                width: 120px;
                 height: 70px;
                 margin-top: 0.4rem;
                 font-size: 8px;
                 margin-left: -4rem;
-                margin-bottom: -1rem;
+                margin-bottom: 0rem;
             }
             .mycard .card-content .card-butt button{
             
@@ -295,38 +305,63 @@
                 width: 70px;
                 height: 20px;
                 padding:0px;
-                margin-top: -4rem;
+                margin-top:7px;
                 margin-left: -4rem;
                
             }
+
             .nav{
                 width: 300px;
+                display: flex;
+                flex-direction:column;
             }
             .nav .search{
-                flex: 1 0 70px;
-               font-size: 11px;
+                flex: 1 0 100%;
+                margin-left:auto ;
+                margin-right: auto;
+            }
+
+            .nav .search h3{
+                font-size: 22px;
+                margin-top: 0.7cm;
+                margin-bottom: 0.5cm;
+                align-content: center;
             }
             .nav .search .sel{
-                width: 40px;
+                width: 60px;
+                margin-top: 0cm;
+                margin-left:auto ;
+                margin-right: auto;
+                display: block;
+                
             }
             .nav .news{
-                flex: 1 1 160px;
-                margin-left: 1rem;
-                margin-top: 2rem;
-                font-size: 10px;
+                flex: 1 0 100%;
+                margin: 0 auto;
+                margin-top: -0.1rem;
+                font-size: 18px;
             }
             .nav .suscribe{
-                flex:1 0 70px;
+                flex:1 0 100%;
                 order: 3;
-                margin-left: -0.1rem;
+                margin: 0 auto;
+                margin-top: -2.5rem;
+            }
+            .nav .suscribe h3{
+                
+                text-align: center;
+                margin-top: 30px;
+                font-size: 24px;
             }
             .nav .suscribe .inp1{
-                width: 30px;
-                font-size: 5px;
+                width: 70px;
+                font-size: 13px;
+                margin: 0 auto;
+                margin-left: 0rem;
             }
             .nav .suscribe button{
-                font-size: 7px;
-                width: 26px;
+                font-size: 10px;
+                width: 50px;
                 padding:2px;
             }
 }
